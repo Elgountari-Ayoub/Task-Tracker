@@ -11,5 +11,11 @@ export class TaskItemComponent implements OnInit {
   @Input() task!: Task;
   faTimes = faTimes;
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    
+  }
+  onDelete(task: Task){
+    console.log(task);
+    
+  }
 }
